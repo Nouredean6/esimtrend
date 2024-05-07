@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        font-family: 'Poppins';
+    }
+    .custom-scrollbar {
+        /* Set the width of the scrollbar */
+        scrollbar-width: 10px;
+        /* Track */
+        scrollbar-track-color: #f1f1f1;
+    }
+    
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 5px;
+    }
+    
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    
+    .overlay-cust {
+        background-color: rgba(0, 0, 0, 0.1); /* Adjust the last value (0.5) to change the opacity */
+    }
+    .overlay-cust1 {
+        background-color: rgba(0, 0, 0, 0.030); /* Adjust the last value (0.5) to change the opacity */
+    }
+    .overlay-cust2 {
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) to change the opacity */
+    }
+    .custom-gradient {
+        background-image: radial-gradient(50% 50% at 50% 50%, rgba(30,196,248,.23) 0, #1ec4f8 100%);
+      }
+    
+    .contactus-btn{
+        background: #eb224d;
+    border-radius: 30px;
+    font-size: 18px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    color: #fff;
+    /* font-family: "Poppins-Medium", sans-serif; */
+    max-width: 194px;
+    }
+    .esim-desc{
+        border: none !important;
+        border-radius: 20px;
+        padding: 10px 20px !important;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 0 25.5319px rgba(42,106,152,.1)!important;
+        -webkit-box-shadow: 0 0 25.5319px rgba(42,106,152,.1)!important;
+        -moz-box-shadow: 0 0 25.5319px rgba(42, 106, 152, .1) !important;
+        min-height: 54px;
+    }
+    .esim-inputs{
+        border: none !important;
+    border-radius: 20px;
+     padding: 10px 20px !important; 
+     width: 100%; 
+     background: #fff; 
+    box-shadow: 0 0 25.5319px rgba(42,106,152,.1)!important;
+    -webkit-box-shadow: 0 0 25.5319px rgba(42,106,152,.1)!important;
+    -moz-box-shadow: 0 0 25.5319px rgba(42, 106, 152, .1) !important;
+    min-height: 54px;
+    }
+    .input-labels{
+        font-weight: bold;
+    font-size: 16px;
+    color: #344054;
+    line-height: 20px;
+    }
+    .underline{
+        color: #eb224d;
+    text-decoration: underline;
+    border: none;
+    font-size: 15px;
+    border-radius: 23px;
+    width: 100%;
+    cursor: pointer;
+    }
+    
+    .red-link {
+        color: #eb224d;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: underline;
+        cursor: pointer;
+        text-align: center;
+    }
+    .submit-button{
+        background: #eb224d;
+    padding: 10px 60px;
+    border-radius: 30px;
+    line-height: 27px;
+    border: none;
+    color: #fff;
+    width: 80%;
+    min-height: 27px;
+    }
+    .or-text {
+        position: absolute;
+        left: 46%;
+        top: -20px;
+        background-color: #fff;
+        padding: 10px;
+        color: #5e6282;
+        font-size: 18px;
+        font-size: 700;
+    }
+    .social-btn-google {
+        
+        
+        box-shadow: 0 0 25px 0 rgba(42, 106, 152, .1);
+        color: #344155;
+        
+    }
+    
+  }
